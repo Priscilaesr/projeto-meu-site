@@ -79,11 +79,11 @@ header > p {
  }
 
 section.core > img {
-    width: 35vw;
+    width: 34vw;
     padding-left: 40px;
     text-align: left;
     position: absolute;
-    top: 94%;   
+    top: 105%;   
 }
 
 section.core > h2 {
@@ -92,7 +92,7 @@ section.core > h2 {
     margin: 0px;
     position: absolute;
     right: 10%;
-    top: 100%;
+    top: 112%;
 }
 
 section.core > p {
@@ -102,7 +102,7 @@ section.core > p {
     width: 290px;
     position: absolute;
     left: 52%;
-    top: 108%;
+    top: 120%;
 }
 
 .botaocore {
@@ -110,15 +110,16 @@ section.core > p {
     margin: 1px;
     position: absolute;
     right: 18%;
-    top: 140%;
+    top: 152%;
 }
 
 section.pulodogato > img{
     position: relative;
-    width: 40vw;
+    width: 39vw;
+    padding-right: 20px;
     position: absolute;
     right: 1%;
-    top: 154%;
+    top: 175%;
 }
 
 section.pulodogato > h2{
@@ -128,8 +129,8 @@ section.pulodogato > h2{
     text-align: left;
     width: 50vw;
     position: absolute;
-    left: 7%;
-    top: 165%;
+    left: 10%;
+    top: 182%;
 }
 
 section.pulodogato > p{
@@ -140,17 +141,25 @@ section.pulodogato > p{
     width: 50vw;
     position: absolute;
     left: 4%;
-    top: 172%;
+    top: 190%;
+}
+
+.botaogato {
+    padding: 1px;
+    margin: 1px;
+    position: absolute;
+    right: 65%;
+    top: 225%;
 }
 
 section.tuli > img {
     width: 300px;
     display: inline;
-    padding-left: 2px;
+    padding-left: 40px;
     text-align: left;
     position: absolute;
     left: 1%;
-    top: 220%
+    top: 250%
 }
 
 section.tuli > h2{
@@ -159,7 +168,7 @@ section.tuli > h2{
     margin: 0px;
     position: absolute;
     right: 14%;
-    top: 227%;
+    top: 255%;
 }
 
 section.tuli > p{
@@ -169,7 +178,7 @@ section.tuli > p{
     width: 290px;
     position: absolute;
     left: 52%;
-    top: 240%;
+    top: 265%;
 }
 
 .botaotuli {
@@ -177,7 +186,7 @@ section.tuli > p{
     margin: 1px;
     position: absolute;
     left: 68%;
-    top: 270%;
+    top: 295%;
 }
 
 section.asaseu > img{
@@ -185,7 +194,7 @@ section.asaseu > img{
     width: 100vw;
     height: 180px;
     position: absolute;
-    top: 300%;
+    top: 323%;
 }
 
 section.asaseu > h2 {
@@ -194,7 +203,7 @@ section.asaseu > h2 {
     margin: 0px;
     text-align: center;
     position: absolute;
-    top: 335%;
+    top: 360%;
     left: 11%;
 }
 
@@ -203,7 +212,7 @@ section.asaseu > p {
     font-size: 20px;
     text-align: center;
     position: absolute;
-    top: 345%;
+    top: 370%;
 }
 
 section.medias > h3 {
@@ -214,7 +223,7 @@ section.medias > h3 {
     padding: 5px;
     margin: 0px;
     position: absolute;
-    top: 358%;
+    top: 384%;
 }
 
 section.medias > p {
@@ -223,7 +232,7 @@ section.medias > p {
     padding: 5px;
     margin: 0px;
     position:absolute;
-    top: 364%;
+    top: 390%;
 }
 
 section.final > p {
@@ -231,7 +240,7 @@ section.final > p {
     font-size: 15px;
     margin: 0px;
     position:absolute;
-    top: 370%;
+    top: 396%;
    }
 
 footer {
@@ -242,13 +251,13 @@ footer {
     color: var(--cor2);
     padding: 2px;
     position: absolute;
-    top: 400%;
+    top: 405%;
 }
 
 footer h2{
     font-size: medium;
     position: absolute;
-    top: 2%;
+    top: 6%;
     right: 40%;
 }
 
@@ -257,4 +266,5 @@ footer p {
     margin: 0px;
     position: absolute;
     top: 30%;
+    left: 3%;
 }
