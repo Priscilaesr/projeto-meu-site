@@ -55,6 +55,7 @@ header > p {
     margin-inline-end: 0px;   
 }
 
+
 section.wings > img{
     width: 98vw;
     height: 90vh; 
@@ -223,28 +224,33 @@ section.asaseu > p {
     padding-left: 30px;
 }
 
-section.redes-sociais > h3 {
-    font-family: var(--fonte2);
+section#redes-sociais > h3 {
+    font-family: var(--fonte1);
     font-size: 20px;
     color: var(--cor5);
     text-align: left;
-    padding: 5px;
+    margin: 0px;
+}
+section#redes-sociais {
+    text-align: left;
+    padding: 10px;
     margin: 0px;
     position: absolute;
-    top: 376%;
-    padding-left: 30px;
+    top: 373%;
+}
+section#redes-sociais img {
+    width: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.374);
+    box-sizing: border-box;
 }
 
-section.redes-sociais > p {
-    font-family: var(--fonte2);
-    font-size: 20px;
-    color: var(--cor5);
-    text-align: left;
-    padding: 5px;
-    margin: 0px;
-    position: absolute;
-    top: 382%;
-    padding-left: 30px;
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.674);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.642);
+    transition: transform 0.5s, border 1s;
 }
 
 section.final > p {
@@ -252,8 +258,8 @@ section.final > p {
     font-size: 15px;
     margin: 0px;
     position:absolute;
-    top: 390%;
-    padding-left: 30px;
+    top: 392%;
+    padding-left: 10px;
    }
 
 footer {
